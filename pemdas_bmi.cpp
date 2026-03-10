@@ -8,5 +8,5 @@ void input(){
     cout << "Masukkan berat badan (kg): ";
     cin >> weight;
     cout << "Masukkan tinggi badan (m): ";
-    cin >> height;
+    cin >> height; 
 }
