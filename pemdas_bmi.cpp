@@ -41,3 +41,8 @@ void output(){
     cout << "Status   : " << categoryBMI(bmii) << endl;
     cout << endl;
 }
+
+int main(){
+    input();
+    output(); 
+}
