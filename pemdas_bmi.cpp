@@ -33,3 +33,11 @@ string categoryBMI(float bmi){
         return "Obesitas"; 
     }
 }
+
+void output(){
+    bmii = calculatorBMI(weight, height);
+    cout << "--- Hasil ---" << endl;
+    cout << "BMI Anda : " << bmii << endl;
+    cout << "Status   : " << categoryBMI(bmii) << endl;
+    cout << endl;
+}
