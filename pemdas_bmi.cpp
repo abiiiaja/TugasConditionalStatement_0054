@@ -16,3 +16,20 @@ void input(){
 float calculatorBMI(float b, float t){
     return b/(t*t);
 }
+
+string categoryBMI(float bmi){
+    if (bmi < 30){
+        if (bmi < 18.5){
+            return "Berat Badan Kurang";
+        }
+        else if (bmi < 25){
+            return "Berat Badan Normal";
+        }
+        else{
+            return "Berat Badan Kelebihan";
+        }
+    }
+    else{
+        return "Obesitas"; 
+    }
+}
